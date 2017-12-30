@@ -40,15 +40,38 @@
 
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark rounded fixed-top">
-      <!-- <a class="navbar-brand" href="#">Paul Patena</a> -->
-      <span class="navbar-brand">
-      <img src="static/images/paul_profile_1.png" height="50px"></span>
-      <a data-toggle="tooltip" title="Paul's Github Account" class="navbar-brand" href="https://github.com/PaulPatena/"><img src="static/images/github-logo.svg" height="30px"></a>
-      <a data-toggle="tooltip" title="Paul's LinkedIn Account" class="navbar-brand" href="https://www.linkedin.com/in/paulmichaelpatena/"><img src="static/images/linkedin-button.svg" height="30px"></a>
+      <a class="navbar-brand" 
+         title="Learn more about me."
+         data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" 
+         role="button" aria-expanded="true" aria-controls="exampleAccordion1">
+        <img src="static/images/paul_profile_1.png" height="50px">
+      </a>
+      <a class="nav-item nav-link"
+         title="Apps that I developed during my free time."
+         data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" 
+         role="button" aria-expanded="true" aria-controls="exampleAccordion2">
+        <img src="static/images/app-store.svg" height="30px">
+      </a>
+      <a class="nav-item nav-link"
+         title="Carousel images of my home projects."
+         data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" 
+         role="button" aria-expanded="true" aria-controls="exampleAccordion4">
+        <img src="static/images/gallery.svg" height="30px">
+      </a>
+      <a class="nav-item nav-link"
+         title="Some demo videos of my home projects."
+         data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" 
+         role="button" aria-expanded="true" aria-controls="exampleAccordion3">
+        <img src="static/images/videos.svg" height="30px">
+      </a>
+
+      
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
+
+      
       <div class="collapse navbar-collapse" id="navbarsExample04">
         <!-- <ul class="navbar-nav mr-auto"> -->
         <ul class="navbar-nav mr-auto">
@@ -56,38 +79,20 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img data-toggle="tooltip" title="Hobby Anroid Apps" src="static/images/android-logo.svg" height="30px">
-              <span class="mobile_only">Android Apps</span>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="dropdown04">
-              <a class="dropdown-item" href="https://github.com/PaulPatena/WeatherApp_kt">Weather App</a>
-              <a class="dropdown-item" href="https://github.com/PaulPatena/TaskList_App_kt">TaskList App</a>
-            </div>
-          </li>
           <li class="nav-item">
-            <a data-toggle="tooltip" title="Mortgage Calculator App" class="nav-link" href="https://www.paulpatena.com/mortgage-calculator/">
-              <img src="static/images/house-with-dollar-sign.svg" height="30px">
-              <span class="mobile_only">Mortgage Calculator</span>
+            <a class="nav-link"
+               data-toggle="tooltip" title="Paul's Github Account" 
+               href="https://github.com/PaulPatena/">
+              <img src="static/images/github-logo.svg" height="30px">
+              <span class="mobile_only">Github Account</span>
             </a>
           </li>
           <li class="nav-item">
-            <a data-toggle="tooltip" title="Internet of Things Demo" class="nav-link" href="https://www.paulpatena.com/led/">
-              <img src="static/images/light-bulb.svg" height="30px">
-              <span class="mobile_only">Internet of Things</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a data-toggle="tooltip" title="Garage Automation" class="nav-link" href="https://www.paulpatena.com/garage/">
-              <img src="static/images/car-in-garage.svg" height="30px">
-              <span class="mobile_only">Garage Automation</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a data-toggle="tooltip" title="Asteroids Browser Game" class="nav-link" href="http://www.codeskulptor.org/#user44_Cjve5cPaijGSgih_0.py">
-              <img src="static/images/asteroid.svg" height="30px">
-              <span class="mobile_only">Asteroids Game</span>
+            <a class="nav-link"
+               data-toggle="tooltip" title="Paul's LinkedIn Account"
+               href="https://www.linkedin.com/in/paulmichaelpatena/">
+              <img src="static/images/linkedin-button.svg" height="30px">
+              <span class="mobile_only">LinkedIn Account</span>
             </a>
           </li>
         </ul>
